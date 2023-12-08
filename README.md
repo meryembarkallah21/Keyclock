@@ -1,12 +1,20 @@
 KeyClock 📚
 Welcome to KeyClock - the book management system built with Spring Boot, React, and Keycloak for La Nuit de l'Info competition! 🌟
 
-![KeyClock Image](./image.png)
+## Diagrams
 
-Description
+Here are the diagrams illustrating the process:
+
+- ![Diagram 1](pic/ss1.png) Description of diagram 1.
+- ![Diagram 2](pic/ss2.png) Description of diagram 2.
+- ![Diagram 3](pic/ss3.png) Description of diagram 3.
+- ![Diagram 4](pic/ss4.png) Description of diagram 4.
+
+
+## Description
 KeyClock is your go-to platform for managing and exploring books using ISBNs as unique identifiers. This project utilizes Spring Boot for the backend, React for the frontend, and Keycloak for authentication and authorization.
 
-Endpoints 📚
+## Endpoints 📚
 Admin Services:
 
 GET /api/bookextras/me - Retrieves admin details. Secured for roles like BOOKS_MANAGER and USER.
@@ -21,7 +29,7 @@ POST /api/books/{isbn}/comments - Adds comments to a book. Secured for BOOKS_MAN
 Frontend
 The frontend of KeyClock is a React-based interface designed to manage and view books. It's styled using Semantic UI React and offers a user-friendly experience.
 
-Security 📚
+ ## Security 📚
 KeyClock implements access tokens (JWTs) to secure its endpoints. These tokens, generated similarly to the provided example, manage access based on user roles for various operations.
 
 How to Run 📚
@@ -39,7 +47,7 @@ Keycloak Setup:
 Set up Keycloak and configure roles (BOOKS_MANAGER, USER, MANAGE_BOOKS).
 Ensure Keycloak is running and connected to the application for authentication.
 
-Contributors 📚
+## Contributors 📚
 Meryem Barkallah
 Rahma Mghirbi
 Asma Arrak
