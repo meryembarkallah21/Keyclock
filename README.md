@@ -48,7 +48,7 @@ Set up Keycloak and configure roles (BOOKS_MANAGER, USER, MANAGE_BOOKS).
 Ensure Keycloak is running and connected to the application for authentication.
 
 ## Contributors 📚
-Meryem Barkallah
-Rahma Mghirbi
+Meryem Barkallah |
+Rahma Mghirbi  |
 Asma Arrak
 
