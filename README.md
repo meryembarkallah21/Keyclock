@@ -1,6 +1,9 @@
 KeyClock 📚
 Welcome to KeyClock - the book management system built with Spring Boot, React, and Keycloak for La Nuit de l'Info competition! 🌟
 
+## Update: First Place Achievement YAY! 🏆
+
+
 ## Diagrams
 
 Here are the diagrams illustrating the process:
